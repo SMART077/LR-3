@@ -1,0 +1,157 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #ccc;
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.header
+{
+    width: 100%;
+    height: 700px;
+    background: url(img/photo-1553095066-5014bc7b7f2d.jfif) no-repeat;
+    background-size: cover;
+}
+
+.header-1
+{
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+.logo
+{
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 8%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+.active {
+    color: rgba(47, 96, 243, 0.836);
+}
+
+.menu ul li, a {
+    margin-left: 50px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+
+.menu ul li a:hover
+{
+    color: rgba(47, 96, 243, 0.836);
+    border-bottom: 2px solid rgba(47, 96, 243, 0.836);
+}
+
+.text 
+{
+    margin: 250px auto;
+    text-align: center;
+}
+
+.text h1
+{
+    color: #fff;
+}
+
+.text p
+ {
+    color: #fff;
+}
+
+
+.text a input 
+{
+    width: 17%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 40px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .5s;
+    border: none;
+}
+
+.text a input:hover
+{
+    background-color: rgba(78, 120, 243, 0.74);
+}
+
+.images
+{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    margin-right: 50px;
+}
+
+.img
+{
+    width: 33.333%;
+}
+
+.img img {
+    width: 400px;
+    height: 400px;
+}
+
+.img p
+{
+    margin-top: 20px;
+    color: #000;
+    line-height: 20px;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+
+.img p:hover
+{
+    color: rgba(47, 96, 243, 0.836);
+}
+
+.footer
+{
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 80px;
+    color: #ccc;
+    line-height: 80px;
+    text-align: center;
+}

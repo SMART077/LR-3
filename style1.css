@@ -1,0 +1,84 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mb-15{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* padding: 30px; */
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.lbl{
+    font-size: 18px;
+}
+
+.btn{
+    width: 166px;
+}
+
+
+.text
+{
+    height: auto;
+    background-image: url(css/img/v462-n-130-textureidea_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text h1 
+{
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.text p 
+{
+    text-align: justify;
+    margin: 0 30px 0 30px;
+    color: #ccc;
+    line-height: 20px;
+}
+
+.text button 
+{
+    margin: 30px 0 20px 30px ;
+    padding: 12px 35px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .4s;
+    border-radius: 5px;
+}
+
+.text button a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.text button:hover
+{
+    background-color: rgba(128, 128, 128, 0.877);
+    
+}
